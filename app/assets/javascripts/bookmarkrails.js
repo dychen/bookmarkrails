@@ -12,6 +12,6 @@ var Bookmarkrails = {
         var bookmarkListView = new Bookmarkrails.Views.BookmarkListView(bookmarkList);
         new Bookmarkrails.Routers.Bookmarks(params);
         Backbone.history.start();
+        $('#bookmarkList').sortable();
     }
 };
-//$('#bookmarkList').sortable();
